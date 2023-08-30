@@ -10,9 +10,11 @@
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/sidenav.css">
+    <link rel="stylesheet" type="text/css" href="css/dropdown.css">
     
     <!-- Scripts -->
     <script src="js/sidenav.js"></script>
+    <script src="js/topbar.js"></script>
 </head>
 <body>
     <div id="main">
@@ -22,9 +24,18 @@
             <span name="profile" class="fa-solid fa-user fa-2x headerBtn" id="profileBtn" onclick="openProfileDropdown()"></span>
         </div>
         <div id="menuContainer" class="sidenav">
-            <a href="#">Home</a>
+            <a href="index.html" class="active">Home</a>
             <a href="about.html">About</a>
         </div>
+        <div id="profileDropdown" class="dropdown">
+            <div id="profileDropdownContent" class="dropdownContent">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+        </div>
+
+        <!-- Body -->
         <div id="body">
             <section id="">
                 <p>Home page</p>

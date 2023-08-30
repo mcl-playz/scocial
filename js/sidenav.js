@@ -8,10 +8,10 @@ function closeNav() {
     document.getElementById("menuContainer").style.width = "0";
 }
 
-window.onclick = function(event) {
-    if (!event.target.matches('#openNavBtn')) {
-        if (!event.target.matches("#menuContainer")) {
-            closeNav();
-        }
-    }
-}
+// window.onclick = function(event) {
+//     if (!event.target.matches('#openNavBtn')) {
+//         if (!event.target.matches("#menuContainer")) {
+//             closeNav();
+//         }
+//     }
+// }
