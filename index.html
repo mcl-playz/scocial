@@ -12,18 +12,17 @@
     <link rel="stylesheet" type="text/css" href="css/sidenav.css">
     
     <!-- Scripts -->
-    <script src="js/index.js"></script>
+    <script src="js/sidenav.js"></script>
 </head>
 <body>
     <div id="main">
         <div id="topbar" class="sticky">
-            <span class="fa-solid fa-bars fa-4x headerBtn" id="openNavBtn" onclick="openNav()"></span>
+            <span class="fa-solid fa-bars fa-3x headerBtn" id="openNavBtn" onclick="openNav()"></span>
             <h1 id="title">Scocial</h1>
-            <span class="fa-solid fa-user fa-3x headerBtn" id="profileBtn" onclick="openProfilePopup()"></span>
+            <span name="profile" class="fa-solid fa-user fa-2x headerBtn" id="profileBtn" onclick="openProfileDropdown()"></span>
         </div>
         <div id="menuContainer" class="sidenav">
-            <a id="closeNavBtn" onclick="closeNav()">×</a>
-            <a href="index.html">Home</a>
+            <a href="#">Home</a>
             <a href="about.html">About</a>
         </div>
         <div id="body">
