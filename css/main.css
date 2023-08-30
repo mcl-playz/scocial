@@ -33,17 +33,29 @@
 }
 
 .headerBtn {
-  background: none;
-  border: none;
+  margin-left: 16px;
+  cursor: pointer;
+  margin-right: 16px;
+}
+
+#openNavBtn {
+  width: 16*4px;
+  margin-top: 8px;
+  float: left;
+}
+
+#profileBtn {
+  margin-top: 15px;
+  float: right;
 }
 
 #main {
   background-color: #444444;
   height: 100vh;
-  width: 100vw - 250px;
+  width: 100vw;
   transition: margin-left .5s;
 }
 
 #body {
-  padding: 20px;
+  padding: 6.25rem 20px 20px 20px;
 }
