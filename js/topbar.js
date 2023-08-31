@@ -1,6 +1,5 @@
 function openProfileDropdown() {
     document.getElementById("profileDropdownContent").classList.toggle("show");
-    document.getElementById("profileDropdown").style.maxHeight = "320px";
 }
 
 /* Set the width of the side navigation to 250px */
@@ -18,7 +17,6 @@ window.onclick = function (event) {
         var dropdown = document.getElementById("profileDropdownContent");
         if (dropdown.classList.contains('show')) {
             dropdown.classList.remove('show');
-            document.getElementById("profileDropdown").style.maxHeight = "0px";
         }
     }
     if (!event.target.matches('#openNavBtn')) {
